@@ -17,6 +17,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  font-size: 18px;
 }
 
 li {
@@ -24,12 +25,13 @@ li {
 }
 
 li a {
-  display: block;
-  padding: 14px 39.4px;
+    display: block;
+  padding: 14px 21.5px;
   color: white;
   text-align: center;
   text-decoration: none;
 }
+
 li a:hover {
     background-color: #111;
 }
@@ -39,17 +41,17 @@ td {
 }
 
 nav {
-  float: left;
-  width: 42.3%;
+  float: none;
+  width: 92.5%;
   height: 200px;
   background: rgb(13, 190, 196);
   padding: 15px;
 }
 
 aside {
-  float: right;
+  float: none;
   padding: 20px;
-  width: 42.3%;
+  width: 90%;
   background-color: #b6b44f;
   height: 191px; 
 }
@@ -61,6 +63,34 @@ section {
   background: #b6b44f;
   padding: 15px;
 }
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  height: 690px;
+}
+
+label {
+  width: 50px;
+  text-align: left;
+  margin-left: 80px;
+}
+
+#ciudad {
+    text-align: center;
+}
+
+footer {
+  background-color: rgb(49, 85, 163);
+  padding: 22px;
+  text-align: center;
+  color: white;
+}
+
+
 
 </style>
 <body>
@@ -78,6 +108,8 @@ section {
     
     <nav>
         <table>
+            <div style="text-align: center;">
+
             <tr>
                 <td>
                 <label for="ciudad">Elige una ciudad:</label>
@@ -91,74 +123,82 @@ section {
                   <option>Estambul</option>
                   <option>París</option>
                 </select>
-
-                <br>
-                <br>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
                 <label>Nombre:</label>
                 <br>
-                <input type="texto">
+                <input type="texto" style="margin-left: 75px;">
                 <br>
                 <label>Apellidos:</label>
                 <br>
-                <input type="texto">
+                <input type="texto" style="margin-left: 75px;">
                 <br>
                 <label>Correo Electrónico:</label>
                 <br>
-                <input type="texto">
+                <input type="texto" style="margin-left: 75px;">
                 <br>
                 <label>Número de Teléfono:</label>
                 <br>
-                <input type="texto">
+                <input type="texto" style="margin-left: 75px;">
                 </td>
             </tr>
+            </div>
         </table>
-    </nav>  
+    </nav> 
+    
+
     <aside>
         <table>
             <tr>
                 <td>
-                    <label>Número de adultos</label>
+                    <label style="margin-right: 85px;">Número de adultos:</label>
                     <input type="number">
+                </td>
+            </tr>
 
-                    <br>
-                    <br>
-                    <label>Régimen alojamiento</label>
-                    <br>
-                    <input type="radio">
-                    <label>Desayuno</label>
-                    <br>
-                    <input type="radio">
-                    <label>Media pensión</label>
-                    <br>
-                    <input type="radio">
-                    <label>Pensión entera</label>
+            <tr>
+                <td>
+                    <label style="margin-right: 90px;">Régimen alojamiento</label>
                     <br>
                     <input type="radio">
                     <label>Todo incluido</label>
+                    <br>
+                    <input type="radio">
+                    <label>Pensión Entera</label>
+                    <br>
+                    <input type="radio">
+                    <label>Pensión Media</label>
+                    <br>
+                    <input type="radio">
+                    <label>Desayunos</label>
                 </td>
             </tr>
         </table>
     </aside>
 
-    <section>
-        <table>
-            <tr>
-                <td>
-                    <label>Otros:</label>
-                    <br>
-                    <input type="texto">
-                </td>
-            </tr>
-        </table>
-    </section>
-
-   
-    
-
-
-
-
+    <footer>
+        <label style="margin-right: 75px;">Otros:</label>
+        <br>
+        <input type="texto">
+        
+            
+                
+                    
+                
+            
+        
+    </footer>
 </form>
+   
+
+
+
+
+
+
 
 
 
