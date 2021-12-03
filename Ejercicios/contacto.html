@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+    <title>Contacto</title>
+</head>
+
+<style>
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 40px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  height: 736px;
+}
+
+nav {
+  float: none;
+  width: 92.5%;
+  height: 275px;
+  background: rgb(13, 190, 196);
+  padding: 15px;
+}
+
+footer {
+  background-color: rgb(49, 85, 163);
+  padding: 35px;
+  text-align: center;
+  color: white;
+}
+
+</style>
+
+<body>
+<form>
+    <header>
+        <div class="contenedor">
+            <img src="Imagenes/baner.jpg" width="400px" height="200px" />
+            <div class="texto-encima">Asir1Vender</div>
+            <div class="centrado"></div>
+          </div>
+    </header>
+
+
+
+<nav>
+    <table>
+        <tr>
+            <td>
+            <label style="margin-left: 75px;">Nombre:</label>
+            <br>
+            <input type="texto" style="margin-left: 75px;">
+            <br>
+            <label style="margin-left: 75px;">Apellidos:</label>
+            <br>
+            <input type="texto" style="margin-left: 75px;">
+            <br>
+            <label style="margin-left: 75px;">Correo Electrónico:</label>
+            <br>
+            <input type="texto" style="margin-left: 75px;">
+            <br>
+            <label style="margin-left: 75px;">Número de Teléfono:</label>
+            <br>
+            <input type="texto" style="margin-left: 75px;">
+            </td>
+        </tr>
+            
+        <tr>
+            <td>
+            <label for="tema" style="margin-left: 75px;">Tema mensaje:</label>
+            <select id="tema">
+              <option>Problemas con la compra</option>
+              <option>Problemas con el envío</option>
+              <option>Problema no encontrado</option>
+              <option>Sugerencias</option>
+              <option>Otros</option>
+              
+            </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+            <label style="margin-left: 75px;">Mensaje:</label>
+            <br>
+            <input type="texto" style="margin-left: 75px;">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="submit" style="float: right;">
+            </td>
+        </tr>
+
+        
+    </table>
+</nav>
+
+<footer>
+    <h2 style="text-align: left;">Siguenos en:</h2>
+    <img src="Imagenes/redes.png" width="180px" style="float: left;">
+    <h2 style="text-align: right; font-size: 20px;" >Desarrollado por: Mario Morejón</h2>
+    
+</footer>
+
+</form>
+</body>
