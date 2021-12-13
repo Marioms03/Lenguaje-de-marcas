@@ -2,18 +2,18 @@
 <rss version="2.0">
 
 <channel>
-<title>Mi canal RSS Mario Morejón</title>
+<title>Mi canal RSS Mario Morejon</title>
 <link>https://github.com/Marioms03/Lenguaje-de-marcas.git</link>
-<description>Canal de descripción del alumno Mario Morejón</description>
+<description>Canal de descripcion del alumno Mario Morejon</description>
 <item>
 <title>Mi primera noticia</title>
 <link>www.eltiempo.es</link>
-<description>Infromación del tiempo</description>
+<description>Infromacion del tiempo</description>
 </item>
 <item>
 <title>Mi segunda noticia</title>
 <link>www.embargosalobestia.com</link>
-<description>Información de compras</description>
+<description>Informacion de compras</description>
 </item>
 </channel>
 </rss> 
