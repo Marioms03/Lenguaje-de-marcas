@@ -5,7 +5,13 @@
 <title>Mi canal RSS Mario Morejon</title>
 <link>https://marioms03.github.io/Lenguaje-de-marcas/</link>
 <description>Canal de descripcion del alumno Mario Morejon</description>
+<language>es</language>
 <item>
+<image>
+  <url></url>
+  <title>El tiempo</title>
+  <link>https://www.eltiempo.es</link>
+</image>
 <title>Mi primera noticia</title>
 <link>https://www.eltiempo.es</link>
 <description>Informacion del tiempo</description>
