@@ -12,8 +12,13 @@
 </item>
 <item>
 <title>Mi segunda noticia</title>
-<link>www.embargosalobestia.com</link>
+<link>https://www.embargosalobestia.com</link>
 <description>Informacion de compras</description>
+</item>
+<item>
+<title>Mi tercera noticia</title>
+<link>https://www.as.com</link>
+<description>Informacion de noticias deportivas</description>
 </item>
 </channel>
 </rss> 
