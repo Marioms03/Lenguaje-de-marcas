@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<note xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="note.xsd">
+
+    <to>Angela</to>
+    <from>Pedro</from>
+    <heading>Recordatorio</heading>
+    <body>Examen mañana</body>
+    <despedida>Hay que estudiar</despedida>
+</note>
