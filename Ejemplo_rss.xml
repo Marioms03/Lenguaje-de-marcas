@@ -7,24 +7,22 @@
 <description>Canal de descripcion del alumno Mario Morejon</description>
 <language>es</language>
 <item>
-<image>
-  <url></url>
-  <title>El tiempo</title>
-  <link></link>
-</image>
 <title>Mi primera noticia</title>
 <link>https://www.eltiempo.es</link>
 <description>Informacion del tiempo</description>
+<pubDate>13/01/2022</pubDate>
+<category>Tiempo</category>
+<dc:creator>Mario Picazo</dc:creator>
+<guid isPermaLink="false">https://www.eltiempo.es</guid>
 </item>
 <item>
 <title>Mi segunda noticia</title>
 <link>https://www.embargosalobestia.com</link>
 <description>Informacion de compras</description>
-</item>
-<item>
-<title>Mi tercera noticia</title>
-<link>https://www.as.com</link>
-<description>Informacion de noticias deportivas</description>
+<pubDate>13/01/2022</pubDate>
+<category>Compras</category>
+<dc:creator>Ignacio Martínez Melgarejo</dc:creator>
+<guid isPermaLink="false">https://www.embargosalobestia.com</guid>
 </item>
 </channel>
 </rss> 
