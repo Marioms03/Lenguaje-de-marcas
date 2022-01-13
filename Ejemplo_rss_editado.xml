@@ -10,7 +10,6 @@
     <link>
     https://www.3djuegos.com/juegos/analisis/40105/0/god-of-war/
     </link>
-    <atom:link href="http://fetchrss.com/rss/61dfd967f5658b1eda63517261dfd9404d0c6b1fc837d253.xml" rel="self" type="application/rss+xml"/>
     <generator>https://fetchrss.com</generator>
     <image>
     <link>
@@ -28,12 +27,9 @@
     Análisis de God of War. El asalto de Kratos en un nuevo escenario, ¿qué tal funciona GOW en PC?
     </title>
     <link>https://www.3djuegos.com</link>
-    <description>
-    <img src="https://i.3djuegos.com/juegos/11552/god_of_war_ps4__nombre_temporal_/fotos/analisis/god_of_war_ps4__nombre_temporal_-5591277.webp" width="1080" height="345"><br><br><p class="s18 fw5 fftit c2 lh27 mar_t30 mar_b40">El juego del año de 2018 llega a PC con un port que no deja indiferente. Las mejoras van más allá de lo meramente técnico, ofreciendo una experiencia de juego que redondea la obra maestra que fue tres años atrás. En este análisis te contamos por qué volver a jugar God of War es una de las mejores noticias que nos deja este comienzo de año.</p><br/><br/><span style="font-size:12px; color: gray;">(Feed generated with <a href="https://fetchrss.com" target="_blank">FetchRSS</a>)</span>
-    </description>
-    <dc:creator>Carlos Gallego</dc:creator>
+    <creator>Carlos Gallego</creator>
     <pubDate>Thu, 13 Jan 2022 07:48:16 +0000</pubDate>
-    <media:content url="https://i.3djuegos.com/juegos/11552/god_of_war_ps4__nombre_temporal_/fotos/analisis/god_of_war_ps4__nombre_temporal_-5591277.webp" medium="image" width="1080" height="345"/>
+    <content url="https://i.3djuegos.com/juegos/11552/god_of_war_ps4__nombre_temporal_/fotos/analisis/god_of_war_ps4__nombre_temporal_-5591277.webp" medium="image" width="1080" height="345"/>
     <guid isPermaLink="false">https://www.3djuegos.com</guid>
     </item>
     </channel>
@@ -47,13 +43,13 @@
         </description>
         <pubDate>Thu, 13 Jan 2022 07:54:54 +0000</pubDate>
         <link>
-        https://as.com/motor/2022/01/13/formula_1/1642054623_915685.html?m1=cG9ydGFkYV9wb3J0YWRh&m2=QUNUVUFMSURBRA%3D%3D&m3=MzY%3D&m4=bm9ybWFs&m5=MjA%3D&m1=cG9ydGFkYV9wb3J0YWRh&m2=QUNUVUFMSURBRA%3D%3D&m3=Mzc%3D&m4=bm9ybWFs&m5=MjA%3D
+            https://as.com/motor/2022/01/13/formula_1/1642054623_915685.html?
         </link>
-        <atom:link href="http://fetchrss.com/rss/61dfd967f5658b1eda63517261dfdacebebfbe244231b413.xml" rel="self" type="application/rss+xml"/>
+        <link href="http://fetchrss.com/rss/61dfd967f5658b1eda63517261dfdacebebfbe244231b413.xml" rel="self" type="application/rss+xml"/>
         <generator>https://fetchrss.com</generator>
         <image>
         <link>
-        https://as.com/motor/2022/01/13/formula_1/1642054623_915685.html?m1=cG9ydGFkYV9wb3J0YWRh&m2=QUNUVUFMSURBRA%3D%3D&m3=MzY%3D&m4=bm9ybWFs&m5=MjA%3D&m1=cG9ydGFkYV9wb3J0YWRh&m2=QUNUVUFMSURBRA%3D%3D&m3=Mzc%3D&m4=bm9ybWFs&m5=MjA%3D
+        https://as.com/motor/2022/01/13/formula_1/1642054623_915685.html?
         </link>
         <url>
         https://www.google.com/s2/favicons?domain=https://as.com
@@ -67,12 +63,9 @@
         <link>
         https://as.com/motor/2022/01/13/formula_1/javascript:void(0);
         </link>
-        <description>
-        <img src="https://as01.epimg.net/motor/imagenes/2022/01/11/formula_1/1641916052_829499_1641918403_noticia_normal_recorte1.jpg" width="641" height="361"><br><br>"La victoria de Sainz solo es cuestión de tiempo"<br/><br/><span style="font-size:12px; color: gray;">(Feed generated with <a href="https://fetchrss.com" target="_blank">FetchRSS</a>)</span>
-        </description>
-        <dc:creator>Carmen Ruiz</dc:creator>
+        <creator>Carmen Ruiz</creator>
         <pubDate>Thu, 13 Jan 2022 07:54:54 +0000</pubDate>
-        <media:content url="https://as01.epimg.net/motor/imagenes/2022/01/11/formula_1/1641916052_829499_1641918403_noticia_normal_recorte1.jpg" medium="image" width="641" height="361"/>
+        <content url="https://as01.epimg.net/motor/imagenes/2022/01/11/formula_1/1641916052_829499_1641918403_noticia_normal_recorte1.jpg" medium="image" width="641" height="361"/>
         <guid isPermaLink="false">
         https://as.com/motor/2022/01/13/formula_1/javascript:void(0);
         </guid>

@@ -12,7 +12,7 @@
 <description>Informacion del tiempo</description>
 <pubDate>13/01/2022</pubDate>
 <category>Tiempo</category>
-<dc:creator>Mario Picazo</dc:creator>
+<creator>Mario Picazo</creator>
 <guid isPermaLink="false">https://www.eltiempo.es</guid>
 </item>
 <item>
@@ -21,7 +21,7 @@
 <description>Informacion de compras</description>
 <pubDate>13/01/2022</pubDate>
 <category>Compras</category>
-<dc:creator>Ignacio Martínez Melgarejo</dc:creator>
+<creator>Ignacio Martínez Melgarejo</creator>
 <guid isPermaLink="false">https://www.embargosalobestia.com</guid>
 </item>
 </channel>
