@@ -6,23 +6,28 @@
 <link>https://marioms03.github.io/Lenguaje-de-marcas/</link>
 <description>Canal de descripcion del alumno Mario Morejon</description>
 <language>es</language>
+
 <item>
 <title>Mi primera noticia</title>
 <link>https://www.eltiempo.es</link>
 <description>Informacion del tiempo</description>
-<pubDate>13/01/2022</pubDate>
 <category>Tiempo</category>
+<pubDate>13/01/2022</pubDate>
 <creator>Mario Picazo</creator>
+<email>eltiempo@hotmail.com</email>
 <guid isPermaLink="false">https://www.eltiempo.es</guid>
 </item>
+
 <item>
 <title>Mi segunda noticia</title>
 <link>https://www.embargosalobestia.com</link>
 <description>Informacion de compras</description>
-<pubDate>13/01/2022</pubDate>
 <category>Compras</category>
+<pubDate>13/01/2022</pubDate>
 <creator>Ignacio Martínez Melgarejo</creator>
+<email>embargosalobestia@hotmail.com</email>
 <guid isPermaLink="false">https://www.embargosalobestia.com</guid>
 </item>
+
 </channel>
 </rss> 
