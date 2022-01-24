@@ -1,0 +1,18 @@
+<?xsd version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="futbol">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="equipos">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="nombre" type="xs:string"/>
+                        <xs:element name="copas" type="xs:integer"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+         </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>
