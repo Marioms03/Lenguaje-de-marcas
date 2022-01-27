@@ -1,0 +1,28 @@
+<?xsd version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="consola">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="plataforma">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="nombre" type="xs:string"/>
+                        <xs:element name="version" type="xs:integer"/>
+                        <xs:element name="juegos">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="accion">
+                                        <xs:element name="nombre" type="xd:string"/>
+                                        
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>
