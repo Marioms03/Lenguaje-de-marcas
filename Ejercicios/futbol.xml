@@ -26,7 +26,7 @@ xsi:noNamespaceSchemaLocation="futbol.xsd">
             <jugados>
                 <ganados>100</ganados>
                 <perdidos>10</perdidos>
-                <empatados></empatados>
+                <empatados>0</empatados>
             </jugados>
         </partidos>
         <estadio>
