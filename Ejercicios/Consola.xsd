@@ -14,7 +14,17 @@
                                 <xs:sequence>
                                     <xs:element name="accion">
                                         <xs:element name="nombre" type="xd:string"/>
-                                        
+                                        <xs:element name="nombre" type="xd:string"/>
+                                        <xs:element name="nombre" type="xd:string"/>                                       
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="rol">
+                                        <xs:element name="nombre" type="xd:string"/>
+                                        <xs:element name="nombre" type="xd:string"/>
+                                        <xs:element name="nombre" type="xd:string"/>
                                     </xs:element>
                                 </xs:sequence>
                             </xs:complexType>

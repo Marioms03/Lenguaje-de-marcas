@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 <consola xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation="">
+xsi:noNamespaceSchemaLocation="Consola.xsd">
 
 <consola>
     <plataforma>
@@ -94,4 +94,5 @@ xsi:noNamespaceSchemaLocation="">
         </exito>
     </plataforma>
     
+</consola>
 </consola>
