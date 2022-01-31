@@ -1,98 +1,98 @@
 <?xml version="1.0"?>
 
-<consola xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<consolas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="Consola.xsd">
 
-<consola>
-    <plataforma>
-        <nombre>PS</nombre>
-        <version>4</version>
-        <juegos>
-            <accion>
-                <nombre>juego 1</nombre>
-                <nombre>juego 2</nombre>
-                <nombre>juego 3</nombre>
-            </accion>
-            <rol>
-                <nombre>juego 4</nombre>
-                <nombre>juego 5</nombre>
-                <nombre>juego 6</nombre>
-            </rol>
-            <arcade>
-                <nombre>juego 7</nombre>
-                <nombre>juego 8</nombre>
-                <nombre>juego 9</nombre>
-            </arcade>
-        </juegos>
-        <fechalanzamiento>2021/05/03</fechalanzamiento>
-        <exito>
-            <ventas>
-                <numero>300</numero>
-                <mes>Enero</mes>
-                <anno>2011</anno>
-            </ventas>
-        </exito>
-    </plataforma>
+    <consola>
+        <plataforma>
+            <nombre>PS</nombre>
+            <version>4</version>
+            <juegos>
+                <accion>
+                    <nombre>juego 1</nombre>
+                    <nombre>juego 2</nombre>
+                    <nombre>juego 3</nombre>
+                </accion>
+                <rol>
+                    <nombre>juego 4</nombre>
+                    <nombre>juego 5</nombre>
+                    <nombre>juego 6</nombre>
+                </rol>
+                <arcade>
+                    <nombre>juego 7</nombre>
+                    <nombre>juego 8</nombre>
+                    <nombre>juego 9</nombre>
+                </arcade>
+            </juegos>
+            <fechalanzamiento>2021/05/03</fechalanzamiento>
+            <exito>
+                <ventas>
+                    <numero>300</numero>
+                    <mes>Enero</mes>
+                    <anno>2011</anno>
+                </ventas>
+            </exito>
+        </plataforma>
 
-    <plataforma>
-        <nombre>PS</nombre>
-        <version>5</version>
-        <juegos>
-            <accion>
-                <nombre>juego 1</nombre>
-                <nombre>juego 2</nombre>
-                <nombre>juego 3</nombre>
-            </accion>
-            <rol>
-                <nombre>juego 4</nombre>
-                <nombre>juego 5</nombre>
-                <nombre>juego 6</nombre>
-            </rol>
-            <arcade>
-                <nombre>juego 7</nombre>
-                <nombre>juego 8</nombre>
-                <nombre>juego 9</nombre>
-            </arcade>
-        </juegos>
-        <fechalanzamiento>2011/08/05</fechalanzamiento>
-        <exito>
-            <ventas>
-                <numero>600</numero>
-                <mes>Marzo</mes>
-                <anno>2015</anno>
-            </ventas>
-        </exito>
-    </plataforma>
+        <plataforma>
+            <nombre>PS</nombre>
+            <version>5</version>
+            <juegos>
+                <accion>
+                    <nombre>juego 1</nombre>
+                    <nombre>juego 2</nombre>
+                    <nombre>juego 3</nombre>
+                </accion>
+                <rol>
+                    <nombre>juego 4</nombre>
+                    <nombre>juego 5</nombre>
+                    <nombre>juego 6</nombre>
+                </rol>
+                <arcade>
+                    <nombre>juego 7</nombre>
+                    <nombre>juego 8</nombre>
+                    <nombre>juego 9</nombre>
+                </arcade>
+            </juegos>
+            <fechalanzamiento>2011/08/05</fechalanzamiento>
+            <exito>
+                <ventas>
+                    <numero>600</numero>
+                    <mes>Marzo</mes>
+                    <anno>2015</anno>
+                </ventas>
+            </exito>
+        </plataforma>
 
-    <plataforma>
-        <nombre>XBOX</nombre>
-        <version>2021</version>
-        <juegos>
-            <accion>
-                <nombre>juego 1</nombre>
-                <nombre>juego 2</nombre>
-                <nombre>juego 3</nombre>
-            </accion>
-            <rol>
-                <nombre>juego 4</nombre>
-                <nombre>juego 5</nombre>
-                <nombre>juego 6</nombre>
-            </rol>
-            <arcade>
-                <nombre>juego 7</nombre>
-                <nombre>juego 8</nombre>
-                <nombre>juego 9</nombre>
-            </arcade>
-        </juegos>
-        <fechalanzamiento>2018/09/07</fechalanzamiento>
-        <exito>
-            <ventas>
-                <numero>2000</numero>
-                <mes>Abril</mes>
-                <anno>2020</anno>
-            </ventas>
-        </exito>
-    </plataforma>
+        <plataforma>
+            <nombre>XBOX</nombre>
+            <version>2021</version>
+            <juegos>
+                <accion>
+                    <nombre>juego 1</nombre>
+                    <nombre>juego 2</nombre>
+                    <nombre>juego 3</nombre>
+                </accion>
+                <rol>
+                    <nombre>juego 4</nombre>
+                    <nombre>juego 5</nombre>
+                    <nombre>juego 6</nombre>
+                </rol>
+                <arcade>
+                    <nombre>juego 7</nombre>
+                    <nombre>juego 8</nombre>
+                    <nombre>juego 9</nombre>
+                </arcade>
+            </juegos>
+            <fechalanzamiento>2018/09/07</fechalanzamiento>
+            <exito>
+                <ventas>
+                    <numero>2000</numero>
+                    <mes>Abril</mes>
+                    <anno>2020</anno>
+                </ventas>
+            </exito>
+        </plataforma>
     
-</consola>
-</consola>
+    </consola>
+</consolas>
