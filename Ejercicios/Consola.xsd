@@ -1,10 +1,10 @@
 <?xsd version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-<xs:element name="consolas">
+<xs:element name="consola">
     <xs:complexType>
         <xs:sequence>
-            <xs:element name="plataforma">
+            <xs:element name="plataforma" maxOccurs="unbounded">
                 <xs:complexType>
                     <xs:sequence>
                         <xs:element name="nombre" type="xs:string"/>
@@ -15,9 +15,7 @@
                                     <xs:element name="accion">
                                         <xs:complexType>
                                             <xs:sequence>
-                                                <xs:element name="nombre" type="xs:string"/>
-                                                <xs:element name="nombre" type="xs:string"/>
-                                                <xs:element name="nombre" type="xs:string"/> 
+                                                <xs:element name="nombre" type="xs:string" maxOccurs="3"/>                                                 
                                             </xs:sequence>
                                         </xs:complexType>                                      
                                     </xs:element>
@@ -29,9 +27,7 @@
                                     <xs:element name="rol">
                                         <xs:complexType>
                                             <xs:sequence>
-                                                <xs:element name="nombre" type="xs:string"/>
-                                                <xs:element name="nombre" type="xs:string"/>
-                                                <xs:element name="nombre" type="xs:string"/>
+                                                <xs:element name="nombre" type="xs:string" maxOccurs="3"/>                                                
                                             </xs:sequence>
                                         </xs:complexType> 
                                     </xs:element>
@@ -43,9 +39,7 @@
                                     <xs:element name="arcade">
                                         <xs:complexType>
                                             <xs:sequence>
-                                                <xs:element name="nombre" type="xs:string"/>
-                                                <xs:element name="nombre" type="xs:string"/>
-                                                <xs:element name="nombre" type="xs:string"/>
+                                                <xs:element name="nombre" type="xs:string" maxOccurs="3"/>
                                             </xs:sequence>
                                         </xs:complexType>
                                     </xs:element>
