@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<futbol xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="futbol_ref.xsd">
+
+<futbol>
+    <equipos>
+        <nombre>Betis</nombre>
+        <copas>0</copas>
+        <jugadores>
+            <pichichi>
+                <nombre>Joaquin</nombre>
+                <fechanacimiento>1980-10-10</fechanacimiento>
+                <goles>100</goles>
+                <tarjetas>
+                    <amarillas>1</amarillas>
+                    <rojas>0</rojas>
+                </tarjetas>
+            </pichichi>
+        </jugadores>
+        <equipacion>
+            <primera>Blanca y verde</primera>
+            <segunda>Azul y blanca</segunda>
+        </equipacion>
+        <partidos>
+            <jugados>
+                <ganados>100</ganados>
+                <perdidos>10</perdidos>
+                <empatados>0</empatados>
+            </jugados>
+        </partidos>
+        <estadio>
+            <nombre>Benito Villamarín</nombre>
+            <capacidad>60000</capacidad>
+        </estadio>
+    </equipos>
+</futbol>
+</futbol>
