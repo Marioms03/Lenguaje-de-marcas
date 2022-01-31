@@ -24,7 +24,7 @@ xsi:noNamespaceSchemaLocation="Consola.xsd">
                 <nombre>juego 9</nombre>
             </arcade>
         </juegos>
-        <fechalanzamiento>05/03/2021</fechalanzamiento>
+        <fechalanzamiento>2021/05/03</fechalanzamiento>
         <exito>
             <ventas>
                 <numero>300</numero>
@@ -54,7 +54,7 @@ xsi:noNamespaceSchemaLocation="Consola.xsd">
                 <nombre>juego 9</nombre>
             </arcade>
         </juegos>
-        <fechalanzamiento>08/05/2011</fechalanzamiento>
+        <fechalanzamiento>2011/08/05</fechalanzamiento>
         <exito>
             <ventas>
                 <numero>600</numero>
@@ -84,7 +84,7 @@ xsi:noNamespaceSchemaLocation="Consola.xsd">
                 <nombre>juego 9</nombre>
             </arcade>
         </juegos>
-        <fechalanzamiento>09/07/2018</fechalanzamiento>
+        <fechalanzamiento>2018/09/07</fechalanzamiento>
         <exito>
             <ventas>
                 <numero>2000</numero>
