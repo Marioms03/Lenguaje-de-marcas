@@ -2,7 +2,7 @@
 
 <calendario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="calendario.xsd">
-    <trimestre atributo="primero">
+    <trimestre numero="primero">
         <asignatura>
             <nombre>LLMM</nombre> <!-- min 1 max 6-->
             <tema numero="4"> <!-- min 1 max 10-->

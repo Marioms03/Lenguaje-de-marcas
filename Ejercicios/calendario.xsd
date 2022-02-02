@@ -2,6 +2,45 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
 <xs:element name="calendario">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="trimestre">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="asignatura">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="nombre" type="xs:string" minOccurs="1" maxOccurs="6"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="tema" minOccurs="1" maxOccurs="10">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name="nombre" type="xs:string"/>
+                                                <xs:element name="notamedia">
+                                                    <xs:complexType>
+                                                        <xs:sequence>
+                                                            <xs:element name="teoria" type="decimal" minOccurs="2" maxOccurs="10"/>
+                                                            <xs:element name="practica" type="decimal" minOccurs="2" maxOccurs="10"/>
+                                                        </xs:sequence>
+                                                    </xs:complexType>
+                                                </xs:element>
+                                            </xs:sequence>
+                                            <xs:attribute name="numero" type="integer"/>
+                                        </xs:complexType>
+                                    </xs:element>
+                                    <xs:element name="fechasexamenes" type="xs:date" maxOccurs="unbounded"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="numero" type="integer"/>
+    </xs:complexType>
 
 
 
