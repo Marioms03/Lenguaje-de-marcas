@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="restricciones">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="persona">
+                    <xs:complexType>
+                        <xs:all><!-- el xs all me indica que puedo poner los elementos en el orden que yo quiera pero deben aparecer, el min puede ser 0 o 1, el max solamente 1-->
+                            <xs:element name="nombre" type="xs:string" /> 
+                            <xs:element name="apellidos" type="xs:string" />
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>  
+                <xs:element name="empresa">
+                    <xs:complexType>
+                        <xs:choice><!-- con choice solamente podemos elegir una en xml, en este caso empleado o miembro-->
+                            <xs:element name="empleado" type="xs:string" />
+                            <xs:element name="miembro" type="xs:string" />
+                        </xs:choice>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="edad">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:integer"><!-- sirve para crear una restriccion entre dos valores, en este caso la edad en el xml debe estar entre 0 y 120 años-->
+                            <xs:minInclusive value="0"/>
+                            <xs:maxInclusive value="120"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>      
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
