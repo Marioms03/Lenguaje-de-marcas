@@ -28,7 +28,7 @@
                                                     </xs:complexType>
                                                 </xs:element>
                                             </xs:sequence>
-                                            <xs:attribute name="numero" type="integer"/>
+                                            <xs:attribute name="numero" type="xs:integer"/>
                                         </xs:complexType>
                                     </xs:element>
                                     <xs:element name="fechasexamenes" type="xs:date" maxOccurs="unbounded"/>
@@ -39,7 +39,7 @@
                 </xs:complexType>
             </xs:element>
         </xs:sequence>
-        <xs:attribute name="numero" type="integer"/>
+        <xs:attribute name="ciclo" type="xs:string"/>
     </xs:complexType>
 
 
