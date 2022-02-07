@@ -55,7 +55,7 @@
                 <xs:element name="correo"><!-- correo con letras de la A-Z, a-z, 0-9, y terminar con @gmail.com-->
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
-                        <xs:pattern value="([0-9A-Za-z])*[@]([a-z][.])*"/>
+                        <xs:pattern value="([0-9A-Za-z])*[@]([a-z])*[.]([a-z])*"/>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
