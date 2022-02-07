@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<ejer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="ejer.xsd">
+    <telefono>+34248576489</telefono>
+    <password>mar654</password>
+    <DNI>53734849P</DNI>
+    <palabras>maldito</palabras>
+    <palabra>viagra</palabra>
+    <correo>Marioms03@gmail.com</correo>
+
+
+</ejer>

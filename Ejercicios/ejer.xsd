@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ejer">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="telefono"><!-- numero de telefono con +-->
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                        <xs:pattern value="[+][0-9]{11}"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                
+                <xs:element name="password"><!-- contraseña de 5 caracteres entre la a-z, A-Z, 0-9-->
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                        <xs:pattern value="[a-zA-Z0-9]{5-8}"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                <xs:element name="DNI"><!-- DNI con 8 numeros entre 0-9 y una letra de la A-Z-->
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                        <xs:pattern value="[0-9]{8}[A-Z]"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                <xs:element name="palabras"><!-- elegir una de las siguientes palabras-->
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="tonteria"/>
+                            <xs:enumeration value="maldito"/>
+                            <xs:enumeration value="caray"/>
+                            <xs:enumeration value="caramba"/>
+                            <xs:enumeration value="madre mia"/>
+                            <xs:enumeration value="ostras"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                <xs:element name="palabra"><!-- elegir una de las siguientes palabras, aceptando errores-->
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="viagra"/>
+                            <xs:enumeration value="vi@gra"/>
+                            <xs:enumeration value="v1agra"/>
+                            <xs:enumeration value="v1@gra"/>
+                            <xs:enumeration value="v1@gr@"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                <xs:element name="correo"><!-- correo con letras de la A-Z, a-z, 0-9, y terminar con @gmail.com-->
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                        <xs:pattern value="([0-9A-Za-z])*[@]([a-z][.])*"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element> 
+</xs:schema>

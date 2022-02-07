@@ -26,7 +26,64 @@
                             <xs:maxInclusive value="120"/>
                         </xs:restriction>
                     </xs:simpleType>
-                </xs:element>      
+                </xs:element> 
+                <xs:element name="coche">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string"><!-- sirve para crear una restriccion , en este caso solo puedes elegir entre Audi y Mercedes-->
+                            <xs:enumeration value="Audi"/>
+                            <xs:enumeration value="Mercedes"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element> 
+                <!-- Esto es la definición del tipo "tipoSemana" -->
+                <xs:element name="semana" type="tipoSemana">
+                <xs:simpleType name="tipoSemana">
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Lunes"/>
+                        <xs:enumeration value="Martes"/>
+                        <xs:enumeration value="Miércoles"/>
+                        <xs:enumeration value="Jueves"/>
+                        <xs:enumeration value="Viernes"/>
+                        <xs:enumeration value="Sábado"/>
+                        <xs:enumeration value="Domingo"/>
+                    </xs:restriction>
+                </xs:simpleType>
+                </xs:element>
+                <xs:element name="letras"> <!-- 3 letras de la a-z o A-Z, los carácteres se cuentan por los corchetes cerrados-->
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                        <xs:pattern value="[a-zA-Z][a-zA-Z][a-zA-Z]"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="telefono"> <!-- puedes elegir infinitos números entre el 0 y el 9 o ninguno-->
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                        <xs:pattern value="([0-9])*"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+               <xs:element name="curso"> <!-- tengo que elegir como minimo una letra entre la a-z y entre la A-Z-->
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:pattern value="([a-z][A-Z])+"/>
+                      </xs:restriction>
+                    </xs:simpleType>
+                </xs:element> 
+                <xs:element name="genero"><!-- puede elegir entre los dos-->
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                        <xs:pattern value="male|female"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="password"><!-- solo podemos elegir 8 caracteres entre la a-z, A-Z, 0-9-->
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                        <xs:pattern value="[a-zA-Z0-9]{8}"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>  
             </xs:sequence>
         </xs:complexType>
     </xs:element>

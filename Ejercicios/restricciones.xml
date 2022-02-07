@@ -10,4 +10,11 @@ xsi:noNamespaceSchemaLocation="restricciones.xsd">
         <empleado>Juan</empleado>
     </empresa>
     <edad>5</edad>
+    <coche>Audi</coche>
+    <semana>Lunes</semana>
+    <letras>aBh</letras>
+    <telefono>938347549</telefono>
+    <curso>aA</curso>
+    <genero>male</genero>
+    <password>2736456A</password>
 </restricciones>
