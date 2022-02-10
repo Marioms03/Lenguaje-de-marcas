@@ -8,6 +8,9 @@ xsi:noNamespaceSchemaLocation="ejer.xsd">
     <expresion>maldito</expresion>
     <palabra>v1agra</palabra>
     <correo>Marioms03@gmail.com</correo>
-
+    <sexo id="0">
+        <femenino>mujer</femenino>
+        <masculino>hombre</masculino>
+    </sexo>
 
 </ejer>

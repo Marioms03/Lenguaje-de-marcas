@@ -57,7 +57,40 @@
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
+
+                
+                <xs:element name="sexo">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="femenino" default="f">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="hembra|M|mujer|F|femenino|f|Mujer|Femenino"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="masculino">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="(macho|H|hombre|M|masculino|Masculino|Hombre)*"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="atributoSexo"/>
+                    </xs:complexType>
+                </xs:element> 
+
+                <xs:simpleType name="atributoSexo">
+                    <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="0"/>
+                        <xs:maxInclusive value="1"/>
+                        <xs:enumeration value="0|1"/>
+                    </xs:restriction>
+                </xs:simpleType>
             </xs:sequence>
         </xs:complexType>
     </xs:element> 
+    
+    
 </xs:schema>
