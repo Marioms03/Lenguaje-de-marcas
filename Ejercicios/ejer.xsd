@@ -14,7 +14,9 @@
                 <xs:element name="password"><!-- contraseña de 5 caracteres entre la a-z, A-Z, 0-9-->
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
-                        <xs:pattern value="[a-zA-Z0-9]{5-8}"/>
+                        <xs:minLength value="5"/>
+                        <xs:maxLength value="8"/>
+                        <xs:pattern value="([a-zA-Z0-9])+"/>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
@@ -27,7 +29,7 @@
                     </xs:simpleType>
                 </xs:element>
 
-                <xs:element name="palabras"><!-- elegir una de las siguientes palabras-->
+                <xs:element name="expresion"><!-- elegir una de las siguientes palabras-->
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
                             <xs:enumeration value="tonteria"/>
@@ -43,11 +45,7 @@
                 <xs:element name="palabra"><!-- elegir una de las siguientes palabras, aceptando errores-->
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
-                            <xs:enumeration value="viagra"/>
-                            <xs:enumeration value="vi@gra"/>
-                            <xs:enumeration value="v1agra"/>
-                            <xs:enumeration value="v1@gra"/>
-                            <xs:enumeration value="v1@gr@"/>
+                            <xs:pattern value="viagra|v1agra|vi@gra|v1@gra|v1@gr@"/>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
@@ -55,7 +53,7 @@
                 <xs:element name="correo"><!-- correo con letras de la A-Z, a-z, 0-9, y terminar con @gmail.com-->
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
-                        <xs:pattern value="([0-9A-Za-z])*[@]([a-z])*[.]([a-z])*"/>
+                        <xs:pattern value="[_]*([0-9A-Za-z]{6,50})+[@]([a-z])+[.]([a-z])+"/>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>

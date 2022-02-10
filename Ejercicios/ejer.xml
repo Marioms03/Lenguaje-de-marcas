@@ -5,8 +5,8 @@ xsi:noNamespaceSchemaLocation="ejer.xsd">
     <telefono>+34248576489</telefono>
     <password>mar654</password>
     <DNI>53734849P</DNI>
-    <palabras>maldito</palabras>
-    <palabra>viagra</palabra>
+    <expresion>maldito</expresion>
+    <palabra>v1agra</palabra>
     <correo>Marioms03@gmail.com</correo>
 
 
