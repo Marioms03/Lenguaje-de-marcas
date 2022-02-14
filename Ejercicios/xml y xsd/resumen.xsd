@@ -1,6 +1,62 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="resumen">
+<xs:element name="resumen">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="simples">
+                <xs:complexType>
+                    <!-- Vamos a definir elementos simples-->
+                    <xs:all>
+                        <xs:element name="sinAtributo" type="xs:string"/>
+                        <xs:element name="sinAtributoTipoSimple" type="xs:date"/>
+                        <xs:element name="sinAtributoTipoDefinido" type="ciudad"/>  
+                        <!-- Elemento simple con atributo no se puede-->                    
+                    </xs:all>
+                </xs:complexType>
 
-    </xs:element>
+            </xs:element>
+            <xs:element name="complejos">
+                <xs:complexType>
+                    <xs:all>
+                        <xs:element name="Elemento1">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="Subelemento1.1" type="xs:string"/>
+                                    <xs:element name="Subelemento1.2" type="xs:integer"/>
+                                </xs:sequence>
+                                    <xs:attribute name="id" type="xs:integer"/>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="Elemento3">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="subElemento1" type="ciudad"/>
+                                    <xs:element name="subElemento2" type="direccion"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:all>
+                </xs:complexType>
+            </xs:element>
+
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+<!-- Definicion de tipos definidos-->
+    <!-- Tipo ciudad-->
+    <xs:simpleType name="ciudad">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Sevilla|Cordoba|Malaga"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Tipo Direccion-->
+    <xs:complexType name="direccion">
+        <xs:sequence>
+            <xs:element name="localidad" type="xs:string"/>
+            <xs:element name="CP" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+
 </xs:schema>

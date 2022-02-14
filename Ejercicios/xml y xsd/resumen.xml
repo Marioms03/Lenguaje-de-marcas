@@ -2,5 +2,21 @@
 
 <resumen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="resumen.xsd">
+<simples>
+    <sinAtributo>hola</sinAtributo>
+    <sinAtributoTipoSimple>2022/02/14</sinAtributoTipoSimple>
+    <sinAtributoTipoDefinido>Sevilla</sinAtributoTipoDefinido>
+    <!-- Repetir lo anterior pero con los atributos-->
+    <conAtributo></conAtributo>
+</simples>
+<complejos>
+    <Elemento1 id="0">
+        <Subelemento1.1>adios</Subelemento1.1>
+        <Subelemento1.2>4</Subelemento1.2>
+    </Elemento1>
+    <Elemento3>
+
+    </Elemento3>
+</complejos>
 
 </resumen>
