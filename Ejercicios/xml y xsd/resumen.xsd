@@ -38,6 +38,79 @@
                     </xs:all>
                 </xs:complexType>
             </xs:element>
+            <!-- restricciones-->
+            <!-- expresiones regulares-->
+            <xs:element name="telefono">
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:pattern value="[0-9]+"></xs:pattern>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+
+            <xs:element name="NIF">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="[0-9]{8}[A-Z]"></xs:pattern>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+
+            <xs:element name="ciudad">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="[A-Z]+"></xs:pattern>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+
+            <!-- all/choice/sequence-->
+
+            <xs:element name="informacion1">
+                <xs:complexType>
+                    <xs:all> <!-- en el xml se debe poner todo pero da igual el orden-->
+                        <xs:element name="cuadro1" type="xs:string"/>
+                        <xs:element name="cuadro2" type="xs:string"/>
+                    </xs:all>
+                </xs:complexType>
+            </xs:element>
+
+            <xs:element name="informacion2">
+                <xs:complexType>
+                    <xs:choice> <!-- en el xml debes elegir entre una de las siguientes opciones-->
+                        <xs:element name="cuadro3" type="xs:string"/>
+                        <xs:element name="cuadro4" type="xs:string"/>
+                    </xs:choice>
+                </xs:complexType>
+            </xs:element>
+
+            <xs:element name="informacion3">
+                <xs:complexType>
+                    <xs:sequence> <!-- en el xml se debe poner según el orden en el que se encuentra-->
+                        <xs:element name="cuadro5" type="xs:string"/>
+                        <xs:element name="cuadro6" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+            <!-- max-min Occurs-->
+
+            <xs:element name="platos">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="cantidad" minOccurs="1" maxOccurs="200"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+
+            <!-- grupos de elementos para reutilizar-->
+
+            <xs:group name="matricula">
+                <xs:sequence>
+                    <xs:element name="nombre" type="xs:string"/>
+                    <xs:element name="apellido" type="xs:string"/>
+                </xs:sequence>
+            </xs:group>
 
         </xs:sequence>
     </xs:complexType>
