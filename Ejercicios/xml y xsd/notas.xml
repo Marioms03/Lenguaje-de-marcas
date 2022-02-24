@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<notas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="notas.xsd">
+    <examenNotas>
+        <alumno>
+            <datosAlumnos>
+                <datosPersona>
+                    <numMatricula>a-1769</numMatricula>
+                    <DNI>37465948A</DNI>
+                    <primerApellido>morejon</primerApellido>
+                    <segundoApellido>somoza</segundoApellido>
+                    <nombre>mario</nombre>
+                </datosPersona>
+            </datosAlumnos>
+
+            <notas>
+                <notaFinal>
+                    <notaTeoria>10</notaTeoria>
+                    <notaPractica>8</notaPractica>
+                </notaFinal>
+            </notas>
+        </alumno>
+
+    </examenNotas>
+</notas>

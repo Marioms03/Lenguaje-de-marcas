@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="restaurante">        
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="carta">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="platos" type="categoria"/>
+                        </xs:sequence>
+                        <xs:attribute name="anno" type="xs:integer"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>   
+</xs:schema>
+
+<xs:complexType name="categoria">
+    <xs:sequence>
+
+        <xs:element name="entrante">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="plato" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="nombre"></xs:element>
+                                <xs:element name="precio"></xs:element>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+
+        <xs:element name="primero" maxOccurs="unbounded">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="plato">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="nombre"></xs:element>
+                                <xs:element name="precio"></xs:element>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+
+        <xs:element name="segundo" maxOccurs="unbounded">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="plato">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="nombre"></xs:element>
+                                <xs:element name="precio"></xs:element>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+
+        <xs:element name="postre" maxOccurs="unbounded">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="plato">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="nombre"></xs:element>
+                                <xs:element name="precio"></xs:element>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:simpleType>
+    <xs:restriction base="xs:string">
+        <xs:enumeration value="entrante"/>
+        <xs:enumeration value="primero"/>
+        <xs:enumeration value="segundo"/>
+        <xs:enumeration value="postre"/>
+    </xs:restriction>
+</xs:simpleType>

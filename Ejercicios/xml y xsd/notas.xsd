@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="notas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="examenNotas" use="required">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="alumno" maxOccurs="unbounded" use="required">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="datosAlumnos" type="datosPersona" maxOccurs="1" use="required"/>
+                                        <xs:element name="notas" minOccurs="0" maxOccurs="1"/>
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="notaFinal" use="required">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="notaTeoria" type="xs:integer" minOccurs="0" maxOccurs="15"/>
+                                                                <xs:element name="notaPractica" type="xs:integer" minOccurs="1" maxOccurs="15" use="required"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="final" type="xs:integer"/>
+                                            </xs:complexType>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="convocatoria" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="Primera"/>
+                                    <xs:enumeration value="Segunda"/>
+                                    <xs:enumeration value="Final"/>
+                                    <xs:enumeration value="Extraordinaria"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+
+    </xs:element>
+</xs:schema>
+
+<xs:complexType name="datosPersona">
+    <xs:sequence>
+        <xs:element name="numMatricula" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:pattern value="[a-z]+-[1-3][0-9]{3}"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:element>
+        <xs:element name="DNI" minOccurs="0">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:pattern value="[0-9]{8}[A-Z]"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:element>
+        <xs:element name="primerApellido" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:pattern value="[a-z]+" minOccurs="1" maxOccurs="50"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:element>
+        <xs:element name="segundoApellido" minOccurs="0">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:pattern value="[a-z]*" minOccurs="1" maxOccurs="50"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:element>
+        <xs:element name="nombre" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:pattern value="[a-z]+" minOccurs="1" maxOccurs="25"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:element>
+    </xs:sequence>
+</xs:complexType>
