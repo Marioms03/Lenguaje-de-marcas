@@ -7,7 +7,7 @@
         <copas>0</copas>
         <jugadores>
             <pichichi>
-                <nombre>Joaquin</nombre>
+                <nombrejugador>Joaquin</nombrejugador>
                 <fechanacimiento>1980-10-10</fechanacimiento>
                 <goles>100</goles>
                 <tarjetas>
@@ -28,7 +28,7 @@
             </jugados>
         </partidos>
         <estadio>
-            <nombre>Benito Villamarín</nombre>
+            <nombreestadio>Benito Villamarín</nombreestadio>
             <capacidad>60000</capacidad>
         </estadio>
     </equipos>

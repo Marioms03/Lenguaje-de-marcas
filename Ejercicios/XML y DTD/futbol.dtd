@@ -3,8 +3,8 @@
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT copas (#PCDATA)>
 <!ELEMENT jugadores (pichichi)>
-<!ELEMENT pichichi (nombre, fechanacimiento, goles, tarjetas)>
-<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT pichichi (nombrejugador, fechanacimiento, goles, tarjetas)>
+<!ELEMENT nombrejugador (#PCDATA)>
 <!ELEMENT fechanacimiento (#PCDATA)>
 <!ELEMENT goles (#PCDATA)>
 <!ELEMENT tarjetas (amarillas, rojas)>
@@ -18,6 +18,6 @@
 <!ELEMENT ganados (#PCDATA)>
 <!ELEMENT perdidos (#PCDATA)>
 <!ELEMENT empatados (#PCDATA)>
-<!ELEMENT estadio (nombre, capacidad)>
-<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT estadio (nombreestadio, capacidad)>
+<!ELEMENT nombreestadio (#PCDATA)>
 <!ELEMENT capacidad (#PCDATA)>
