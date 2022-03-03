@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE note SYSTEM "note.dtd">
+<note>
+  <to>Angela</to>
+  <from>
+      <email>mariomorejon@gmail.com</email>
+      <nombre>Mario</nombre>
+  </from>
+  <heading>Recordatorio</heading>
+  <body>
+      <mensaje>Este es el mensaje</mensaje>
+      <fecha>
+          <dia>3</dia>
+          <mes>3</mes>
+          <anno>2022</anno>
+      </fecha>
+  </body>
+</note> 

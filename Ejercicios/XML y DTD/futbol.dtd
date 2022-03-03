@@ -1,0 +1,23 @@
+<!ELEMENT futbol (equipos)>
+<!ELEMENT equipos (nombre, copas, jugadores, equipacion, partidos, estadio)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT copas (#PCDATA)>
+<!ELEMENT jugadores (pichichi)>
+<!ELEMENT pichichi (nombre, fechanacimiento, goles, tarjetas)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fechanacimiento (#PCDATA)>
+<!ELEMENT goles (#PCDATA)>
+<!ELEMENT tarjetas (amarillas, rojas)>
+<!ELEMENT amarillas (#PCDATA)>
+<!ELEMENT rojas (#PCDATA)>
+<!ELEMENT equipacion (primera, segunda)>
+<!ELEMENT primera (#PCDATA)>
+<!ELEMENT segunda (#PCDATA)>
+<!ELEMENT partidos (jugados)>
+<!ELEMENT jugados (ganados, perdidos, empatados)>
+<!ELEMENT ganados (#PCDATA)>
+<!ELEMENT perdidos (#PCDATA)>
+<!ELEMENT empatados (#PCDATA)>
+<!ELEMENT estadio (nombre, capacidad)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT capacidad (#PCDATA)>
