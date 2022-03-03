@@ -2,6 +2,7 @@
 <!DOCTYPE futbol SYSTEM "futbol.dtd">
 
 <futbol>
+    <vacio></vacio>
     <equipos>
         <nombre>Betis</nombre>
         <copas>0</copas>
