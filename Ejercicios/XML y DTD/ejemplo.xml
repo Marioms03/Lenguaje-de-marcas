@@ -8,7 +8,7 @@
             <DATE>5 marzo </DATE>
             <HOLIDAY>julio</HOLIDAY>
             <HOLIDAY>mitad de agosto</HOLIDAY>
-            <PROGRAMSLOT>
+            <PROGRAMSLOT VTR="español">
                 <TIME>12:00</TIME>
                 <TITLE>got talent</TITLE>
                 <DESCRIPTION>concurso</DESCRIPTION>
