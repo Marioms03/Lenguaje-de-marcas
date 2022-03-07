@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE TVSCHEDULE SYSTEM "ejemplo.dtd">
 
-<TVSCHEDULE NAME="Programción">
+<TVSCHEDULE NAME="Programación">
     <CHANNEL CHAN="antena3">
         <BANNER>concurso de talentos para ganar dinero</BANNER>
         <DAY>
