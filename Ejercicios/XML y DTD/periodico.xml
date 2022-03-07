@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE NEWSPAPER SYSTEM "periodico.dtd">
+
+<NEWSPAPER>
+    <ARTICLE AUTHOR="Mario" EDITOR="Juan">
+        <HEADLINE>libro</HEADLINE>
+        <BYLINE>cien</BYLINE>
+        <LEAD>&COPYRIGHT;</LEAD> <!-- &COPYRIGHT; es un ENTITY es decir establece lo que esta definido en el dtd-->
+        <BODY>doscientos</BODY>
+        <NOTES>bueno</NOTES>
+    </ARTICLE>
+</NEWSPAPER>
