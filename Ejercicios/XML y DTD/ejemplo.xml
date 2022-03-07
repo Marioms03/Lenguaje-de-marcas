@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE TVSCHEDULE SYSTEM "ejemplo.dtd">
+
+<TVSCHEDULE NAME="Programción">
+    <CHANNEL CHAN="antena3">
+        <BANNER>concurso de talentos para ganar dinero</BANNER>
+        <DAY>
+            <DATE>5 marzo </DATE>
+            <HOLIDAY>julio</HOLIDAY>
+            <HOLIDAY>mitad de agosto</HOLIDAY>
+            <PROGRAMSLOT>
+                <TIME>12:00</TIME>
+                <TITLE>got talent</TITLE>
+                <DESCRIPTION>concurso</DESCRIPTION>
+            </PROGRAMSLOT>
+        </DAY>
+        <DAY>
+            <DATE>5 de </DATE>
+            <HOLIDAY>no</HOLIDAY>
+        </DAY>
+    </CHANNEL>
+</TVSCHEDULE>
