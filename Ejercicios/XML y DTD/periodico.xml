@@ -9,4 +9,11 @@
         <BODY>doscientos</BODY>
         <NOTES>bueno</NOTES>
     </ARTICLE>
+    <ARTICLE AUTHOR="Mario" EDITOR="Juan">
+        <HEADLINE>libro</HEADLINE>
+        <BYLINE>cien</BYLINE>
+        <LEAD>AAAAA</LEAD> <!-- &COPYRIGHT; es un ENTITY es decir establece lo que esta definido en el dtd-->
+        <BODY>doscientos</BODY>
+        <NOTES>&NEWSPAPER;</NOTES>
+    </ARTICLE>
 </NEWSPAPER>
