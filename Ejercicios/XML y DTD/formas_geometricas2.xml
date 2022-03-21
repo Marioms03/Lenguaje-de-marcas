@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE formas [
+
+   <!ELEMENT formas (forma_geometrica+)>
+   <!ELEMENT forma_geometrica ((cuadrado | rombo | circulo | triangulo | otra), caracteristicas)>
+   <!ELEMENT cuadrado (#PCDATA)>
+   <!ELEMENT rombo (#PCDATA)>
+   <!ELEMENT circulo (#PCDATA)>
+   <!ELEMENT triangulo (#PCDATA)>
+   <!ELEMENT otra (#PCDATA)>
+   <!ELEMENT caracteristicas (color, tipo)>
+   <!ELEMENT color (#PCDATA)>
+   <!ELEMENT tipo (#PCDATA)>
+
+   <!ATTLIST cuadrado lados CDATA #IMPLIED>
+   <!ATTLIST rombo lados CDATA #IMPLIED>
+   <!ATTLIST circulo lados CDATA #IMPLIED>
+   <!ATTLIST triangulo lados CDATA #IMPLIED>
+   <!ATTLIST otra lados CDATA #IMPLIED>
+   ]>
+
+<formas>
+    <forma_geometrica>
+    <cuadrado lados="4">mesa</cuadrado>
+    <caracteristicas>
+        <color>naranja</color>
+        <tipo>plana</tipo>
+    </caracteristicas>
+    </forma_geometrica>
+</formas>
