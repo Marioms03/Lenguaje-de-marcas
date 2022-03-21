@@ -3,7 +3,7 @@
 
 <FARMACIA>
     <MEDICAMENTO>
-        <NOMBRE ID="1">
+        <NOMBRE ID="Med1">
             <GENERICO>DOLOR DE CABEZA</GENERICO>
             <COMERCIAL>PARACETAMOL</COMERCIAL>
         </NOMBRE>
@@ -11,7 +11,7 @@
         <DOSIS>30 MG</DOSIS>
     </MEDICAMENTO>
     <MEDICAMENTO>
-        <NOMBRE ID="2">
+        <NOMBRE ID="Med2">
             <GENERICO>DOLOR DE ESTOMAGO</GENERICO>
             <COMERCIAL>UBIPROFENO</COMERCIAL>
         </NOMBRE>
